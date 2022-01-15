@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    position: absolute;
 }
-/* header styles */
+/* header styles ----------------------------------------------------------------------------------*/
 header{
     display: flex;
     justify-content: space-between;
@@ -25,4 +26,41 @@ header nav a{
     color: black;
     margin-right: 34px;
 }
-/* main style */
+/* main style -----------------------------------------------------------------------------------*/
+.double-flex-section{
+    display: flex;
+    margin-top: 68px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.heading{
+    font-size: 34px;
+    line-height: 70px;
+}
+#image-organizing-one{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    
+    
+}
+#image-organizing-one img{
+    overflow: visible;
+    height: 414px; 
+    width: 440px;
+    transition: transform 1s;
+}
+#image-organizing-one img:hover{
+    transform: scale(1.2);
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 15px 23px;
+    border-radius: 88px;
+    font-size: 16px;
+}
+.fa-hand-point-right{
+    margin-left: 6px;
+}
