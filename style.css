@@ -175,6 +175,9 @@ header nav a:hover{
     .collections{
         margin: 0%;
     }
+    #image-organizing-two img{
+        margin-left: -22%;
+    }
 }
 /* tablet devices */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
@@ -201,7 +204,8 @@ header nav a:hover{
         margin-right: 22%;
     }
     .collections{
-        display: block;
-        margin-left: 29%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0%;
     }
 }
