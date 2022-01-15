@@ -10,13 +10,13 @@ header{
     justify-content: space-between;
 }
 header h3{
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 120px;
     font-size: 24px;
     line-height: 36px;
 }
 header nav{
-    margin-top: 65px;
+    margin-top: 55px;
     margin-right: 120px;
     font-size: 16px;
     line-height: 24px;
@@ -37,11 +37,13 @@ header nav a:hover{
     margin-top: 68px;
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: 50px;
 }
 
 .heading{
     font-size: 34px;
     line-height: 70px;
+    margin-bottom: 2px;
 }
 #image-organizing-one{
     background-image: url(images/Circle\ design.svg);
@@ -120,16 +122,62 @@ header nav a:hover{
 .info-lines{
     margin-top: 15px;
 }
-/* footer style */
+#see-more{
+    text-align: end;
+}
+#see-more a{
+    text-decoration: none;
+    color: purple;
+    font-weight: 900;
+}
+#image-organizing-two{
+    margin-right: 30px;
+}
+/* footer style ------------------------------------------------------------------------------------*/
 #footer-style{
     color: white;
     background-color: purple;
     padding: 5px 100px;
     text-align: center;
 }
-#footer-style p{
-margin-bottom: 48px;
+#social-icon{
+    margin-top: 20px;
+    margin-bottom: 38px;
+    font-size: 30px;
+}
+#social-icon i:hover{
+    background-color: white;
+    color: purple;
 }
 #heading-footer{
     margin-top: 48px
+}
+/* media qurery */
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+    header nav{
+        display: none;
+    }
+    header h3{
+        display: block;
+        margin-left: 39%;
+        font-size: 16px;
+    }
+    .double-flex-section{
+        display: block;
+        text-align: center;
+    }
+    .collections{
+        display: block;
+        margin-left: 14%;
+    }
+}
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
