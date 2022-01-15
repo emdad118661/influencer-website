@@ -1,0 +1,28 @@
+/* common styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header styles */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h3{
+    margin-top: 87px;
+    margin-left: 120px;
+    font-size: 24px;
+    line-height: 36px;
+}
+header nav{
+    margin-top: 95px;
+    margin-right: 120px;
+    font-size: 16px;
+    line-height: 24px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 34px;
+}
+/* main style */
