@@ -151,34 +151,6 @@ header nav a:hover{
     margin-top: 48px
 }
 /* media qurery */
-/* mobile devices */
-@media only screen and (max-width: 688px) {
-    header nav{
-        display: none;
-    }
-    header h3{
-        display: block;
-        margin-left: 39%;
-        font-size: 16px;
-    }
-    .double-flex-section{
-        display: block;
-        text-align: center;
-    }
-    /* #image-organizing-one{
-        height: 257px;
-        width: 257px;
-    } */
-    #image-organizing-one img{
-        margin-left: -22%;
-    }
-    .collections{
-        margin: 0%;
-    }
-    #image-organizing-two img{
-        margin-left: -22%;
-    }
-}
 /* tablet devices */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     header nav{
@@ -204,8 +176,38 @@ header nav a:hover{
         margin-right: 22%;
     }
     .collections{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); 
         margin-left: 0%;
+    }
+
+}
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+    header nav{
+        display: none;
+    }
+
+    header h3{
+        display: block;
+        margin-left: 39%;
+        font-size: 16px;
+    }
+    .double-flex-section{
+        display: block;
+        text-align: center;
+    }
+    /* #image-organizing-one{
+        height: 257px;
+        width: 257px;
+    } */
+    #image-organizing-one img{
+        margin-left: -22%;
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0%;
+    }
+    #image-organizing-two img{
+        margin-left: -22%;
     }
 }
