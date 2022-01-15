@@ -48,8 +48,6 @@ header nav a:hover{
 #image-organizing-one{
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
-    
-    
 }
 #image-organizing-one img{
     overflow: visible;
@@ -167,17 +165,43 @@ header nav a:hover{
         display: block;
         text-align: center;
     }
+    /* #image-organizing-one{
+        height: 257px;
+        width: 257px;
+    } */
+    #image-organizing-one img{
+        margin-left: -22%;
+    }
     .collections{
-        display: block;
-        margin-left: 14%;
+        margin: 0%;
     }
 }
 /* tablet devices */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-    .container{
-        width: 100%;
+    header nav{
+        display: none;
     }
-    .players, .courses{
-        grid-template-columns: repeat(2, 1fr);
+    header h3{
+        display: block;
+        margin-left: 39%;
+        font-size: 16px;
+    }
+    .double-flex-section{
+        display: block;
+        text-align: center;
+    }
+    #image-organizing-two{
+        margin-left: 15%;
+    }
+    #image-organizing-one{
+        margin-top: 34px;
+        margin-left: 19%;
+    }
+    #image-organizing-one img{
+        margin-right: 22%;
+    }
+    .collections{
+        display: block;
+        margin-left: 29%;
     }
 }
