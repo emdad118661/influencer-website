@@ -26,6 +26,11 @@ header nav a{
     color: black;
     margin-right: 34px;
 }
+header nav a:hover{
+    border: purple 3px solid;
+    color: purple;
+    border-radius: 7px;
+}
 /* main style -----------------------------------------------------------------------------------*/
 .double-flex-section{
     display: flex;
